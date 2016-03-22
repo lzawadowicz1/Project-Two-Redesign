@@ -10,14 +10,50 @@ body {
 .header {
   background-color: none;
   width: 100%:
-  position: relative;
-
 }
 
 .logo {
     width: 14%;
-    margin-top: 2.6%;
+    margin-top: -9%;
     margin-left: 22%;
     position:absolute;
     display: block;
+}
+
+.navigation {
+  width: 42%;
+  margin-top: 11.8%;
+  margin-left: 36.9%;
+  position: relative;
+  display: block;
+}
+
+.home,
+.events,
+.contributers,
+.community,
+.gallary {
+   width: 7.5%;
+   margin-top:-4.3%;
+   position: absolute;
+}
+
+.home {
+ margin-left: 38%;
+}
+
+.events {
+ margin-left: 46%;
+}
+
+.contributers {
+ margin-left: 54%;
+}
+
+.community {
+ margin-left: 62%;
+}
+
+.gallary {
+  margin-left: 70%;
 }
