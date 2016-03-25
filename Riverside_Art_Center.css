@@ -35,30 +35,29 @@
 .community,
 .gallery {
    width: 7.5%;
-   margin-top:-5%;
+   margin-top:-5.5%;
    position: absolute;
 }
 
 .home {
- margin-left: 36.5%;
+ margin-left: 35.5%;
 }
 
 .events {
- margin-left: 44.5%;
+ margin-left: 43.5%;
 }
 
 .contributers {
- margin-left: 52.5%;
+ margin-left: 51.5%;
 }
 
 .community {
- margin-left: 60.5%;
+ margin-left: 59.5%;
 }
 
 .gallery {
-  margin-left: 68.5%;
+  margin-left: 67.5%;
 }
-
 
 .buttons figure img {
 	opacity: 1;
@@ -155,4 +154,61 @@
   width: 100%;
   height: 115%;
   font-family: 'Open Sans', sans-serif;
+}
+
+.2011 {
+
+}
+
+.2010 {
+
+}
+
+.hands {
+
+}
+
+.children {
+
+}
+
+.John {
+
+}
+
+.Ann {
+
+}
+
+/*.1,
+.2,
+.3,
+.4,
+.5,
+.6 {
+  width: 7%;
+}*/
+
+.1 {
+
+}
+
+.2 {
+
+}
+
+.3 {
+
+}
+
+.4 {
+
+}
+
+.5 {
+
+}
+
+.6 {
+
 }
