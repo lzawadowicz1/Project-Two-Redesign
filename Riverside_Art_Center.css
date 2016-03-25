@@ -154,7 +154,7 @@
   width: 100%;
   height: 115%;
   font-family: 'Open Sans', sans-serif;
-/*   position: absolute; */
+   position: absolute;
 }
 
 .Show,
@@ -163,12 +163,11 @@
 .children,
 .John,
 .Ann {
-  margin-left: 30%;
   position: relative;
 }
 
 .Show {
-
+    margin-top: 2.6%;
 }
 
 .Exhibit {
@@ -198,29 +197,29 @@
 .forth,
 .fifth,
 .sixth {
-  width: 9%;
+  width: 8%;
 }
 
 .first {
-
+  margin-left: 22%;
 }
 
 .second {
-
+  margin-left: .6%;
 }
 
 .third {
-
+  margin-left: .6%;
 }
 
 .forth {
-
+  margin-left: .6%;
 }
 
 .fifth {
-
+  margin-left: .6%;
 }
 
 .sixth {
-
+  margin-left: .6%;
 }
