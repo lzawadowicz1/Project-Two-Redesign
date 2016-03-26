@@ -23,7 +23,7 @@
 
 .navigation {
   width: 42%;
-  margin-top: 11.8%;
+  margin-top: 11%;
   margin-left: 36.9%;
   position: relative;
   display: block;
@@ -37,26 +37,27 @@
    width: 7.5%;
    margin-top:-5.5%;
    position: absolute;
+   display: block;
 }
 
 .home {
- margin-left: 35.5%;
+ margin-left: 35.1%;
 }
 
 .events {
- margin-left: 43.5%;
+ margin-left: 43.1%;
 }
 
 .contributers {
- margin-left: 51.5%;
+ margin-left: 51.1%;
 }
 
 .community {
- margin-left: 59.5%;
+ margin-left: 59.1%;
 }
 
 .gallery {
-  margin-left: 67.5%;
+  margin-left: 67.1%;
 }
 
 .buttons figure img {
@@ -120,7 +121,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
-  height: 115%;
+  height: 100%;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -136,7 +137,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
-  height: 115%;
+  height: 100%;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -152,9 +153,9 @@
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
-  height: 115%;
+  height: 100%;
   font-family: 'Open Sans', sans-serif;
-   position: absolute;
+  position: relative;
 }
 
 .Show,
@@ -163,32 +164,32 @@
 .children,
 .John,
 .Ann {
-  position: relative;
+
 }
 
 .Show {
-    margin-top: 2.6%;
+    margin-top: 4%;
 }
 
 .Exhibit {
-
+    margin-top: 16%;
 
 }
 
 .hands {
-
+    margin-top: 28%;
 }
 
 .children {
-
+    margin-top: 40%;
 }
 
 .John {
-
+    margin-top: 53%;
 }
 
 .Ann {
-
+    margin-top: 66%;
 }
 
 .first,
@@ -198,28 +199,29 @@
 .fifth,
 .sixth {
   width: 8%;
+  position:absolute;
 }
 
 .first {
-  margin-left: 22%;
+  margin-left: 20.7%;
 }
 
 .second {
-  margin-left: .6%;
+  margin-left: 30.65%;
 }
 
 .third {
-  margin-left: .6%;
+  margin-left: 40.65%;
 }
 
 .forth {
-  margin-left: .6%;
+  margin-left: 50.65%;
 }
 
 .fifth {
-  margin-left: .6%;
+  margin-left: 60.65%;
 }
 
 .sixth {
-  margin-left: .6%;
+  margin-left: 70.65%;
 }
