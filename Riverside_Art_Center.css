@@ -13,10 +13,14 @@
   width: 100%:
 }
 
+.gallery_container {
+  width: 0%;
+}
+
 .logo {
-    width: 16%;
-    margin-top: -9%;
-    margin-left: 20.25%;
+    width: 16.8%;
+    margin-top: 1.7%;
+    margin-left: 20%;
     position:absolute;
     display: block;
 }
@@ -35,29 +39,29 @@
 .community,
 .gallery {
    width: 7.5%;
-   margin-top:-5.5%;
+   margin-top:-5%;
    position: absolute;
    display: block;
 }
 
 .home {
- margin-left: 35.1%;
+ margin-left: 36.5%;
 }
 
 .events {
- margin-left: 43.1%;
+ margin-left: 44.5%;
 }
 
 .contributers {
- margin-left: 51.1%;
+ margin-left: 52.5%;
 }
 
 .community {
- margin-left: 59.1%;
+ margin-left: 60.5%;
 }
 
 .gallery {
-  margin-left: 67.1%;
+  margin-left: 68.5%;
 }
 
 .buttons figure img {
@@ -159,14 +163,43 @@
 }
 
 
-
+#Show,
+#Exhibit,
+#hands,
+#children,
+#John,
 #Ann {
-  color: white;
+  color: darkorange;
+  -webkit-text-stroke: 1px black;
   font-family: 'Fredericka the Great', cursive;
-  font-size: 30px;
+  font-size: 3.5em;
+  margin-left: 20%;
+  position: absolute;
 }
 
+#Show {
+  margin-top: -60.5%;
+}
 
+#Exhibit {
+  margin-top: -49%;
+}
+
+#hands {
+  margin-top: -37.5%;
+}
+
+#children {
+  margin-top: -26%;
+}
+
+#John {
+  margin-top: -14.5%;
+}
+
+#Ann {
+  margin-top: -3%;
+}
 .Show,
 .Exhibit,
 .hands,
@@ -177,7 +210,7 @@
 }
 
 .Show {
-    margin-top: 4%;
+    margin-top: 4.5%;
 }
 
 .Exhibit {
@@ -186,19 +219,19 @@
 }
 
 .hands {
-    margin-top: 28%;
+    margin-top: 27.5%;
 }
 
 .children {
-    margin-top: 40%;
+    margin-top: 39%;
 }
 
 .John {
-    margin-top: 53%;
+    margin-top: 50.5%;
 }
 
 .Ann {
-    margin-top: 66%;
+    margin-top: 62%;
 }
 
 .first,
@@ -233,4 +266,174 @@
 
 .sixth {
   margin-left: 70.65%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+ #gallery {
+  background-image: none;
+ }
+
+ .navigation {
+   width: 40%;
+ }
+
+ .home,
+ .events,
+ .contributers,
+ .community,
+ .gallery {
+   width: 7%;
+   margin-top: -9.3%;
+}
+
+.home {
+  margin-left: 25.5%;
+}
+
+.events {
+  margin-left: 33%;
+}
+
+.community {
+  margin-left: 40.5%;
+}
+
+ .contributers {
+   margin-left: 48%;
+ }
+
+ .gallery {
+   margin-left: 55.5%;;
+ }
+
+#Show, #Exhibit, #hands, #children, #John, #Ann{
+  font-size: .1em;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 568px) {
+   .navigation {
+   width: 42%;
+ }
+
+ .home,
+ .events,
+ .contributers,
+ .community,
+ .gallery {
+   width: 7.5%;
+   margin-top: -7.2%;
+}
+
+.home {
+  margin-left: 31.3%;
+}
+
+.events {
+  margin-left: 39.3%;
+}
+
+.community {
+  margin-left: 47.3%;
+}
+
+ .contributers {
+   margin-left: 55.3%;
+ }
+
+ .gallery {
+   margin-left: 63%;;
+ }
+#Show, #Exhibit, #hands, #children, #John, #Ann {
+  font-size: .8em;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+  .logo {
+   margin-top: 1%;
+ }
+
+  #Show, #Exhibit, #hands, #children, #John, #Ann {
+    font-size: 2em;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 2500px){
+  .logo{
+    margin-top: 1.7%;
+    }
+  }
+  .navigation {
+    width: 42%;
+    margin-top: 12%;
+    margin-left: 36.9%;
+    position: relative;
+    display: block;
+  }
+
+  .home,
+  .events,
+  .contributers,
+  .community,
+  .gallery {
+     width: 7.5%;
+     margin-top:-5%;
+     position: absolute;
+     display: block;
+  }
+
+  .home {
+   margin-left: 36.5%;
+  }
+
+  .events {
+   margin-left: 44.5%;
+  }
+
+  .contributers {
+   margin-left: 52.5%;
+  }
+
+  .community {
+   margin-left: 60.5%;
+  }
+
+  .gallery {
+    margin-left: 68.5%;
+  }
+  #Show, #Exhibit, #hands, #children, #John, #Ann {
+    font-size: 3.4em;
 }
