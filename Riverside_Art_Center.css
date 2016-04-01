@@ -15,7 +15,7 @@
 
 .logo {
     width: 16.8%;
-    margin-top: 1.4%;
+    margin-top: 3%;
     margin-left: 20%;
     position:relative;;
     display: block;
@@ -67,6 +67,11 @@
 }
 .buttons figure:hover img {
 	opacity: .5;
+}
+
+.page_container{
+  width: 100%;
+  position: relative;
 }
 /*///////////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////*/
