@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+
+body{
+  background-color: black;
+}
+
+.background {
+  width: 100%;
+}
+
+.button {
+  width: 11.5%;
+  position: absolute;
+  margin-top: .15%;
+  margin-left: 44.14%;
+}
+
+@-webkit-keyframes greenPulse {
+from { -webkit-box-shadow: 0 0 100px #AFE30E; }
+50% {  -webkit-box-shadow: 0 0 300px #91bd09; }
+to {-webkit-box-shadow: 0 0 19px #8FB518; }
+}
+
+p.enter {
+  font-size: 5.5em;
+  font-family: 'Gabriela';
+  position: absolute;
+  padding-top: 0px;
+  padding-left: 1.5%;
+  color: darkorange;
+}
+
+div.cirrcle {
+    margin-left: 44%;
+    margin-top: 39%;
+    width:300px;
+    height:300px;
+}
+
+.cirrcle {
+    -moz-border-radius: 200px/200px;
+    -webkit-border-radius: 200px 200px;
+    border-radius: 200px/200px;;
+    border:1px solid #91bd09;
+    width:200px;
+    height:200px;
+    outline:none;
+    -webkit-animation-name: greenPulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.cirrcle:hover {
+    box-shadow: 0 0 2px #91bd09;
+    -webkit-box-shadow: 0 0 2px #91bd09;
+    -moz-box-shadow: 0 0 2px #91bd09;
+    border:1px solid #91bd09;
+}
