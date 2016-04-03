@@ -80,34 +80,60 @@
 /*///////////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////*/
 
-
-
-
-
 .frame {
   position: relative;
-  width: 51%;
-  height: 45%;
+  width: 33%;
+  height: 30%;
   margin-top: 3%;
-  margin-left: 24.7%;
+  margin-left: 42%;
 }
 
 .April {
   position: absolute;
-  width: 14%;
-  margin-left: 28%;
+  width: 9.3%;
+  margin-left: 43.5%;
 }
 
 .video {
   position: absolute;
-  width: 30%;
-  height: 32.3%;
-  margin-left: 42.7%
+  width: 20%;
+  height: 21.45%;
+  margin-left: 53.7%
 }
 
 .video,
 .April {
-  margin-top: -21.5%;
+  margin-top: -14.35%;
+}
+
+.link_classes,
+.link_donations,
+.link_community,
+.link_gallery,
+.link_events {
+   width: 10%;
+   margin-left:23.5%;
+   position:absolute;
+}
+
+.link_classes {
+   margin-top: -17%;
+}
+
+.link_community {
+   margin-top: -8%;
+}
+
+.link_gallery {
+   margin-top: 1%;
+}
+
+.link_events {
+   margin-top: 10%;
+}
+
+.link_donations {
+  margin-top: 19%;
 }
 /*///////////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////*/
