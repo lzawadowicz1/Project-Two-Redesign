@@ -14,11 +14,12 @@
 }
 
 .banner {
-  width: 60%;
+  width: 60.7%;
   position: relative;
   margin-top: 2%;
-  margin-left: 20%;
+  margin-left: 19.3%;
 }
+
 .logo {
     width: 16.8%;
     margin-top: -11.7%;
@@ -97,7 +98,7 @@
 .video {
   position: absolute;
   width: 20%;
-  height: 21.5%;
+  max-height: 21.5%;
   margin-top: -16.78%;
   margin-left: 53.8%;
 }
@@ -211,7 +212,6 @@
 /*///////////////////////////////////////////////////////////////////////////*/
 
 #events {
-  background-image: url("Images/Events layout.jpg");
   background-color: black;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -251,7 +251,6 @@
 /*///////////////////////////////////////////////////////////////////////////*/
 
 #contributors {
-  background-image: url("Images/Contributors layout.jpg");
   background-color: black;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -267,7 +266,6 @@
 /*///////////////////////////////////////////////////////////////////////////*/
 
 #community {
-  background-image: url("Images/Community layout.jpg");
   background-color: black;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -283,7 +281,6 @@
 /*///////////////////////////////////////////////////////////////////////////*/
 
 #gallery {
-  background-image: url("Images/Gallery layout.jpg");
   background-color: black;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -309,27 +306,27 @@
 }
 
 #Show {
-  margin-top: -60.5%;
+  margin-top: -59%;
 }
 
 #Exhibit {
-  margin-top: -49%;
+  margin-top: -48.5%;
 }
 
 #hands {
-  margin-top: -37.5%;
+  margin-top: -37%;
 }
 
 #children {
-  margin-top: -26%;
+  margin-top: -25.5%;
 }
 
 #John {
-  margin-top: -14.5%;
+  margin-top: -14%;
 }
 
 #Ann {
-  margin-top: -3%;
+  margin-top: -2.5%;
 }
 .Show,
 .Exhibit,
@@ -341,7 +338,7 @@
 }
 
 .Show {
-    margin-top: 4.5%;
+    margin-top: 5.5%;
 }
 
 .Exhibit {
