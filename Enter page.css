@@ -16,9 +16,9 @@ body{
 }
 
 @-webkit-keyframes greenPulse {
-from { -webkit-box-shadow: 0 0 100px #AFE30E; }
-50% {  -webkit-box-shadow: 0 0 300px #91bd09; }
-to {-webkit-box-shadow: 0 0 19px #8FB518; }
+from { -webkit-box-shadow: 0 0 100px darkorange; }
+50% {  -webkit-box-shadow: 0 0 300px darkorange; }
+to {-webkit-box-shadow: 0 0 19px darkorange; }
 }
 
 p.enter {
@@ -27,7 +27,7 @@ p.enter {
   position: absolute;
   padding-top: 0px;
   padding-left: 1.5%;
-  color: darkorange;
+  color: whitesmoke;
 }
 
 div.cirrcle {
