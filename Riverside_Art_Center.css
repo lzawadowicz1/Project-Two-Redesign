@@ -110,7 +110,10 @@
    font-size: 1.5em;
 }
 
-.footer_home {background-color: #b3b9e3;}
+.footer_home {background-color: #b3b9e3;
+	margin-top: -65.5%;
+	margin-left: 1.5%;
+	}
 .footer_home .info {color:#242f7d;}
 .footer_home .symbol {color:#727cc2;}
 
@@ -130,7 +133,10 @@
 .footer_community .info {color:#032c44;}
 .footer_community .symbol {color:#a8cce2;}
 
-.footer_gallery {background-color:#f5dd37;}
+.footer_gallery {background-color:#f5dd37;
+  margin-top: 84%;
+	margin-left: 1.5%;
+}
 .footer_gallery .info {color:#4c4305;}
 .footer_gallery .symbol {color:#f8f2c5;}
 
@@ -223,7 +229,7 @@
 }
 
 .RAC p {
-  font-size: .9em;
+  font-size: 1.05em;
   font-family: 'Open Sans', sans-serif;
   color: #080808;
   margin-top: -1.3%;
