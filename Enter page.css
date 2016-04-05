@@ -10,11 +10,16 @@ body{
   repeat:no-repeat;
 }
 
+.logo {
+  position: relative;
+  margin-left: 41%;
+}
+
 .button {
-  width: 11.5%;
+  width: 22.5%;
   position: absolute;
-  margin-top: .15%;
-  margin-left: 44.14%;
+  margin-top: -.5%;
+  margin-left: 80.5%;
 }
 
 @-webkit-keyframes greenPulse {
@@ -27,14 +32,14 @@ p.enter {
   font-size: 5.5em;
   font-family: 'Gabriela';
   position: absolute;
-  padding-top: 0px;
-  padding-left: 1.5%;
+  padding-top: 6px;
+  padding-left: 35px;
   color: whitesmoke;
 }
 
 div.cirrcle {
-    margin-left: 44%;
-    margin-top: 39%;
+    margin-left: 81%;
+    margin-top:8%;
     width:300px;
     height:300px;
 }
