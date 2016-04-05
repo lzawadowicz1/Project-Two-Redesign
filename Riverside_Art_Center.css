@@ -81,6 +81,58 @@
 	opacity: .5;
 }
 
+.footer {
+  position: relative;
+  width: 65%;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+}
+
+.footer td{
+  display: inline;
+  border-color: #44000e;
+  border: 2px;
+}
+
+.info {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 15px 25px;
+}
+
+.info :hover {
+    opacity: 1.0;
+}
+
+.symbol {
+   font-size: 1.5em;
+}
+
+.footer_home {background-color: #b3b9e3;}
+.footer_home .info {color:#242f7d;}
+.footer_home .symbol {color:#727cc2;}
+
+.footer_events {background-color: #580010;}
+.footer_events .info {color:#ef7b90;}
+.footer_events .symbol {color:#c18e98;}
+
+
+
+.footer_contributors {background-color: #9e4054;}
+.footer_contributors .info {color: #44000e;}
+.footer_contributors .symbol {color: #c07f8d;}
+
+
+
+.footer_community {background-color: #157fbf;}
+.footer_community .info {color:#032c44;}
+.footer_community .symbol {color:#a8cce2;}
+
+.footer_gallery {background-color:#f5dd37;}
+.footer_gallery .info {color:#4c4305;}
+.footer_gallery .symbol {color:#f8f2c5;}
+
 /*///////////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////*/
 /*//////////////            Home Page                //////////////////////*/
@@ -609,35 +661,6 @@
 
 }
 
-.footer {
-  position: relative;
-  width: 45%;
-  display: block;
-  float: center;
-}
-.footer p{
-  display: inline;
-  font-size: 1em;
-}
-.footer_home {
-  background-color: #b3b9e3;
-}
-
-.footer_events {
-  background-color: #580010;
-}
-
-.footer_contributors {
-  background-color: #9e4054;
-}
-
-.footer_community {
-  background-color: #157fbf;
-}
-
-.footer_gallery {
-  background-color:#f5dd37;
-}
 
 }
 
