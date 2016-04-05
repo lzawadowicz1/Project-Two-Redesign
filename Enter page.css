@@ -5,7 +5,9 @@ body{
 }
 
 .background {
-  width: 100%;
+  background-size: cover;
+  position: fixed;
+  repeat:no-repeat;
 }
 
 .button {
