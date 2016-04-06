@@ -135,7 +135,11 @@
 
 
 
-.footer_community {background-color: #157fbf;}
+.footer_community {
+	background-color: #157fbf;
+    margin-top:-56%;
+    margin-left:1.5%;
+	}
 .footer_community .info {color:#032c44;}
 .footer_community .symbol {color:#a8cce2;}
 
@@ -583,50 +587,86 @@ td {
 }
 
 
-.local img {
-  width: 100%;
-}
-.local th h1 {
-	  font-weight: bold;
-	  font-size: 1em;
-  text-align: left;
-  color: #185875;
+
+.local_shops body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size:1em;
 }
 
-.local td {
-	  font-weight: normal;
-	  font-size: 1em;
+.local_shops {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top:-15%;
+	margin-left:13.6%;
+    position: relative;
 }
 
-.local {
-	  text-align: left;
-	  overflow: hidden;
-	  width: 40%;
-	  margin: 0 auto;
-  display: table;
-  padding: 0 0 8em 0;
+.local_shops table {
+	width: 400px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-.local td, .local th {
-	  padding-bottom: 2%;
-	  padding-top: 2%;
-  padding-left:4%;
-  padding-right:4%;
+.local_shops img {
+	width: 280px;
 }
 
-.local tr:nth-child(odd) {
-	  background-color: #09466b;
+.local_shops th,
+td {
+	padding: 5px;
+	background-color: rgba(0,105,205,0.6);
+	color: white;
+	font-size:1.5em;
 }
 
-.local tr:nth-child(even) {
-	  background-color: #2f6484;
+.local_shops th {
+	text-align: center;
+	font-size:2.5em;
+	background-color: #00cccc;
+	rowspan: 2;
 }
 
-.local th {
-	  background-color: #1F2739;
+.local_shops thead {
+	th {
+
+		background-color: #00cccc;
+	}
 }
 
-.local td:first-child { color: #FB667A; }
+.local_shops tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+}
+
+.downtown_logo {
+  position: relative;
+  display: block;
+  margin-left: 48%;
+  width: 25%;
+}
+
+.downtown {
+	position: absolute;
+	margin-left: 53%;
+	margin-top:.2%;
+	width: 15%;
+}
+
+.map {
+  position:absolute;
+  margin-left:42%;
+  margin-top:4.3%;
+  width: 35%;
+
+}
 
 
 /*///////////////////////////////////////////////////////////////////////////*/
