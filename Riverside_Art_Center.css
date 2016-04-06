@@ -582,6 +582,53 @@ td {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+.local img {
+  width: 100%;
+}
+.local th h1 {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: left;
+  color: #185875;
+}
+
+.local td {
+	  font-weight: normal;
+	  font-size: 1em;
+}
+
+.local {
+	  text-align: left;
+	  overflow: hidden;
+	  width: 40%;
+	  margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+}
+
+.local td, .local th {
+	  padding-bottom: 2%;
+	  padding-top: 2%;
+  padding-left:4%;
+  padding-right:4%;
+}
+
+.local tr:nth-child(odd) {
+	  background-color: #09466b;
+}
+
+.local tr:nth-child(even) {
+	  background-color: #2f6484;
+}
+
+.local th {
+	  background-color: #1F2739;
+}
+
+.local td:first-child { color: #FB667A; }
+
+
 /*///////////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////*/
 /*//////////////            Gallary Page               //////////////////////*/
