@@ -285,28 +285,75 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-
-
-.classes {
-  width: 30%;
-  margin-left: 35%;
-  position: relative;
-
+.calendar {
+  margin-left:-34.5%;
+  margin-top:3.2%;
+  position: absolute;
 }
 
-.pdf {
-  width: 8.5%;
-  margin-top: 20%;
-  margin-left: -20%;
+.calendar_frame {
+	width: 38%;
+    margin-left:19.1%;
+	position: relative;
+}
+
+.class_container {
+	position: relative;
+	width: 38%;
+	margin-top: -1.8%;
+	margin-left: 19.1%;
+}
+
+.classes {
+  width: 27%;
+  margin-left: -32%;
   position: absolute;
 
 }
 
-.calendar {
-  margin-top: 2%;
-  margin-left: 30%;
-  width: 40%;
-  height: 40%;
+.pdf {
+  width: 7%;
+  margin-top: 18%;
+  margin-left: -22%;
+  position: absolute;
+
+}
+
+
+.upcomming_events {
+	position: relative;
+	width: 24.5%;
+	margin-top: -54.5%;
+	margin-left: 56%;
+}
+
+.wine, .film {
+	position: absolute;
+}
+.wine {
+	width: 18%;
+ 	margin-top:-47.25%;
+ 	margin-left: -21.9%;
+}
+
+.film {
+	width:15%;
+    margin-top: -36%;
+    margin-left: -20.5%;
+}
+
+.facebook_container {
+	width: 21%;
+	position: relative;
+	margin-top: -14%;
+	margin-left:57.2%;
+}
+
+.facebook {
+	position: absolute;
+	width: 18%;
+	margin-top: -8.8%;
+	margin-left: -19.4%;
 }
 
 /*///////////////////////////////////////////////////////////////////////////*/
@@ -375,6 +422,63 @@ td {
 			background-color: rgba(255,255,255,0.1);
 		}
 	}
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+.container_v {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42em;
+  color:#A7A1AE;
+}
+
+.intro {
+  font-size:1.7em;
+  font-weight: 700;
+  line-height:1em;
+  text-align: center;
+  color: #230209;
+}
+
+.container_v td {
+	  font-size: 1em;
+}
+
+.container_v {
+	  text-align: left;
+	  overflow: hidden;
+	  width: 80%;
+	  margin: 0 auto;
+   display: table;
+   padding: 0 0 8em 0;
+}
+
+.container_v td, .container_v th {
+	  padding-bottom: 2%;
+	  padding-top: 2%;
+    padding-left:3%;
+    padding-right: 3%;
+}
+
+.container_v tr:nth-child(odd) {
+	  background-color: #ec627f;
+}
+
+.container_v tr:nth-child(even) {
+	  background-color: #ec8298;
+}
+
+.container_v th {
+	  background-color: #ea3259;
+    color:#230209;
+}
+
+.container_v td:first-child {
+  color: #410512;
+  font-weight: 700;}
+
 }
 /*///////////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////*/
