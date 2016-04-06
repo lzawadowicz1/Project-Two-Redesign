@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
 #index {
   background-color: black;
   background-repeat: no-repeat;
@@ -116,13 +118,18 @@
 .footer_home .info {color:#242f7d;}
 .footer_home .symbol {color:#727cc2;}
 
-.footer_events {background-color: #580010;}
+.footer_events {
+	background-color: #580010;
+    margin-top: -65.5%;
+	}
 .footer_events .info {color:#ef7b90;}
 .footer_events .symbol {color:#c18e98;}
 
 
 
-.footer_contributors {background-color: #9e4054;}
+.footer_contributors {
+	background-color: #9e4054;
+	margin-top: -79%;}
 .footer_contributors .info {color: #44000e;}
 .footer_contributors .symbol {color: #c07f8d;}
 
@@ -372,61 +379,6 @@
 }
 
 
-.container html,
-body {
-	height: 100%;
-}
-
-.container body {
-	margin: 0;
-	font-family: sans-serif;
-	font-weight: 100;
-}
-
-.container {
-		width: 26%;
-	background: linear-gradient(45deg, #49a09d, #5f2c82);
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.container table {
-	width: 100%;
-	border-collapse: collapse;
-	overflow: hidden;
-	box-shadow: 0 0 20px rgba(0,0,0,0.1);
-}
-
-.container th,
-td {
-	padding: 15px;
-	background-color: rgba(255,255,255,0.2);
-	color: #fff;
-}
-
-.container th {
-	text-align: center;
-}
-
-.container thead {
-	th {
-		background-color: #250134;
-	}
-}
-
-.container tbody {
-	tr {
-		&:hover {
-			background-color: rgba(255,255,255,0.1);
-		}
-	}
-}
-
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
-
 .container_v {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -449,8 +401,10 @@ td {
 .container_v {
 	  text-align: left;
 	  overflow: hidden;
-	  width: 80%;
-	  margin: 0 auto;
+	  width: 38%;
+	  margin-top: 0%;
+	  margin-left:39.25%;
+      position: relative;
    display: table;
    padding: 0 0 8em 0;
 }
@@ -479,6 +433,139 @@ td {
   color: #410512;
   font-weight: 700;}
 
+}
+
+
+
+
+.header_d {
+  font-size:1em;
+  font-weight: 700;
+  line-height:1em;
+  text-align: left;
+  color: #230209;
+}
+
+.container_d td {
+	  font-size: .8em;
+}
+
+.container_d {
+	position: relative;
+	  width: 10%;
+	  text-align: left;
+	  overflow: hidden;
+	  margin-top:-18%;
+      margin-left:23.5%;
+     display: table;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 300;
+     line-height: 1em;
+
+}
+
+.container_d td, .container_d th {
+	  padding-bottom: 1.5%;
+	  padding-top: 1.5%;
+      padding-left:2%;
+      padding-right: 2%;
+}
+
+.container_d tr:nth-child(odd) {
+	  background-color: #db9eab;
+}
+
+.container_d tr:nth-child(even) {
+	  background-color: #e7b9c3;
+}
+
+.container_d th {
+	  background-color: #db7f93;
+      color:#230209;
+}
+
+.container_d td:first-child {
+  color: #410512;
+  font-weight: 700;
+  }
+
+  .container body {
+	margin: 0;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.container {
+		width: 12%;
+		height: 50%;
+		margin-top:-15%;
+		margin-left: 45.5%;
+	background: linear-gradient(45deg, #efdce4,#d87da4, #bb1a5e);
+	position: relative;
+	transform: translate(-50%, -50%);
+}
+
+.container table {
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.container th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+.container th {
+	text-align: center;
+	background-color: #cf0f60;
+}
+
+.container thead {
+	th {
+		background-color: #cf0f60;
+	}
+}
+
+.container tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.1);
+		}
+	}
+}
+
+
+
+
+.donor_frame {
+  width: 25%;
+  position: relative;
+  margin-top: -42%;
+  margin-left: 53.2%;
+}
+.donations {
+    position:absolute;
+    width: 20%;
+    margin-top:-35.5%;
+    margin-left: -22.5%;
+}
+
+.member_frame {
+	width:25%;
+	margin-top: -27.6%;
+	margin-left: 53.2%;
+}
+
+.member {
+  position:absolute;
+  width: 20%;
+  margin-top:-21.5%;
+  margin-left: -22.5%;
 }
 /*///////////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////*/
