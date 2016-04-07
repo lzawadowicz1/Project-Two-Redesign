@@ -1018,12 +1018,285 @@ td {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    #index {
+      background-color: black;
+      background-repeat: no-repeat;
+      background-image: none;
+      width: 100%;
+      height: 100%;
+      font-family: 'Open Sans', sans-serif;
+    }
 
+    .header {
+      background-color: none;
+      width: 100%:
+      display: table;
+    }
+
+    .banner {
+      width: 99.3%;
+      position: relative;
+      margin-top: 0;
+      margin-left: 0;
+    }
+
+    .logo {
+        width: 29.8%;
+        margin-top: -18.7%;
+        margin-left: 1.5%;
+        position:relative;;
+        display: block;
+    }
+
+    .navigation {
+      width: 61%;
+      margin-top: -14%;
+      margin-left: 36.2%;
+    }
+
+    .home,
+    .events,
+    .contributers,
+    .community,
+    .gallery {
+       width: 10.5%;
+       margin-top: -7.5%;
+    }
+
+
+    .home {
+     margin-left: 35%;
+    }
+
+    .events {
+     margin-left: 46%;
+    }
+
+    .contributers {
+     margin-left: 57%;
+    }
+
+    .community {
+     margin-left: 68%;
+    }
+
+    .gallery {
+      margin-left: 79%;
+    }
+
+
+    .footer {
+      margin-top: 60%;
+      margin-left: -1%;
+        opacity: 0.8;
+    }
+
+    .footer td{
+      display: inline;
+      border: 2px;
+    }
+
+    .info {
+      font-size: .67em;
+      padding: 15px 25px;
+    }
+
+
+    .symbol {
+       font-size: .8em;
+    }
+
+    .footer_home {
+    	margin-top: -65.5%;
+    	}
+
+
+    .footer_events {
+        margin-top: -65.5%;
+    	}
+
+
+
+
+    .footer_contributors {
+
+    	margin-top: -79%;}
+
+
+
+
+    .footer_community {
+
+        margin-top:-56%;
+        margin-left:1.5%;
+    	}
+
+
+    .footer_gallery {
+        margin-top: 84%;
+    }
+
+
+    .footer_responsive {
+      display: none;
+    }
+
+    /*///////////////////////////////////////////////////////////////////////////*/
+    /*///////////////////////////////////////////////////////////////////////////*/
+    /*//////////////            Home Page                //////////////////////*/
+    /*///////////////////////////////////////////////////////////////////////////*/
+    /*///////////////////////////////////////////////////////////////////////////*/
+    .April img,
+    .RAC img,
+    .hours img {
+      width: 60%;
+      margin-left: 38.6%;
+      position: relative;
+    }
+
+    .April img {
+      margin-top: 1.5%;
+    }
+
+
+    .video {
+      width: 30%;
+      max-height: 13.5%;
+      margin-top: -25%;
+      margin-left: 61.5%;
+    }
+
+    .link {
+      width: 25%;
+      height: 80%;
+      margin-top: -33.5%;
+      margin-left: 4.59%;
+    }
+
+    .link_classes,
+    .link_donations,
+    .link_community,
+    .link_gallery,
+    .link_events {
+       width: 20%;
+       margin-left:7%;
+       position:absolute;
+    }
+
+    .link_classes {
+       margin-top: -98%;
+    }
+
+    .link_community {
+       margin-top: -79.8%;
+    }
+
+    .link_gallery {
+       margin-top: -61.5%;
+    }
+
+    .link_events {
+       margin-top: -43%;
+    }
+
+    .link_donations {
+      margin-top: -25%;
+    }
+
+    .RAC img {
+      margin-top: -70%;
+      height: 30%;
+    }
+
+    .RAC div{
+      width: 50%;
+      float: right;
+      text-align:center;
+      position: relative;
+      margin-top: -65.6%;
+      margin-right: 6%;
+    }
+
+    .RAC h2 {
+      font-size: 2em;
+      line-height: 3%;
+      text-shadow: 2px 2px #de511c;
+    }
+
+    .RAC p {
+      font-size: .8em;
+      font-family: 'Open Sans', sans-serif;
+      color: #080808;
+      margin-top: -1.3%;
+    }
+    .hours img {
+      margin-top: -25%;
+    }
+
+    .hours div{
+      width: 68%;
+      float: right;
+      text-align:center;
+      position: relative;
+      margin-top: -25.4%;
+      margin-right: -2.5%;
+
+    }
+
+    .hours h2 {
+      font-size: 2em;
+      line-height: 60%;
+      text-shadow: 2px 2px #8600b3;
+    }
+
+    .hours h4 {
+      font-size: 1.2em;
+      line-height: 50%;
+    }
+
+    .hours p {
+      font-size: .5em;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen
   and (min-device-width: 1200px)
@@ -1031,4 +1304,115 @@ td {
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) {
 
+.home,
+.events,
+.contributers,
+.community,
+.gallery {
+   margin-top: -5.4%;
+
 }
+
+
+.home {margin-left: 35.5%;}
+
+.events {margin-left: 43.5%;}
+
+.contributers {margin-left: 51.5%;}
+
+.community {margin-left: 59.5%;}
+
+.gallery {margin-left: 67.5%;}
+
+
+
+.footer {
+	width: 2000px;
+  margin-top: 91%;
+  margin-left: 14.2%;
+}
+
+.footer td{
+  border: 1px;
+}
+
+.info {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 5px 5px;
+}
+
+
+.symbol {
+   font-size: .25em;
+}
+
+
+.footer_events {
+    margin-top: -65.5%;
+	}
+
+
+
+.footer_contributors {
+	margin-top: -79%;}
+
+
+
+.footer_community {
+    margin-top:-56%;
+    margin-left:1.5%;
+	}
+
+.footer_gallery {
+    margin-top: 84%;
+}
+
+/*///////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////*/
+/*//////////////            Home Page                //////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////*/
+.RAC div{
+  width: 34%;
+  height: 15%;
+  float: right;
+  text-align:center;
+  position: relative;
+  margin-top: -29.6%;
+  margin-right: 24.5%;
+}
+
+.RAC h2 {
+  font-size: 2em;
+  line-height: 2%;
+  text-shadow: 2px 2px #de511c;
+
+
+}
+
+.RAC p {
+  font-size: .62em;
+  margin-top: -.3%;
+}
+
+.hours div{
+  margin-top: -13.9%;
+
+}
+
+.hours h2 {
+  font-size: 2em;
+  line-height: 30%;
+  text-shadow: 2px 2px #8600b3;
+}
+
+.hours h4 {
+  font-size: 1.2em;
+}
+
+.hours p {
+  font-size: .9em;
+}
+
+  }
